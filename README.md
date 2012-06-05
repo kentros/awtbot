@@ -4,9 +4,10 @@ A Clojure DSL for the `java.awt.Robot` API.
 
 ## Usage
 
-```
+```clojure
 (import 'java.awt.Robot)
 (use 'awtbot.core)
+
 (def bot (create-robot))
 
 (with-robot bot
